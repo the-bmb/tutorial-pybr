@@ -12,5 +12,6 @@ class Item(BaseModel):
 class HealthCheckResponse(BaseModel):
     status: str
 
+
 class ErrorResponse(BaseModel):
     message: str
